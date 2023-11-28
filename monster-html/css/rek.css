@@ -1,0 +1,229 @@
+body {
+    background-color: #000000;
+
+}
+
+.profile-container {
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+}
+
+.profile-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover; /* ทำให้รูปภาพเต็มกรอบ */
+    object-position: center; /* จัดตำแหน่งให้รูปอยู่ตรงกลาง */
+    border-radius: 50%;/* ทำให้รูปเป็นวงกลม */
+    border: 2px solid #333;/* เพิ่มกรอบรอบรูป */
+}
+
+.left-sidebar {
+    background-image: url('../assets/images/02.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px; /* เพิ่ม padding ด้านในของ .left-sidebar */
+    margin-bottom: 30px; /* เพิ่ม margin ด้านล่างของ .left-sidebar */
+    /* border: 1px solid #ccc; เพิ่มเส้นขอบด้วย border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* เพิ่มเงาด้านล่าง */
+    /* เพิ่ม transition เพื่อทำให้การเปลี่ยนแปลงมีการแอนิเมชัน */
+    transition: padding 0.3s ease, margin 0.3s ease, box-shadow 0.3s ease;
+}
+
+.page-wrapper {
+    margin-top: 50px; /* ระยะห่างด้านบน */
+}
+.folder-icon {
+    margin-right: 10px;
+}
+
+.navbar-collapse {
+    margin-top: 20px; /* ระยะห่างด้านบน */
+}
+/* เพิ่มสไตล์ให้กับ input[type="date"] */
+input[type="date"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* เพิ่มสไตล์ CSS สำหรับตาราง */
+.user-table th, .user-table td {
+    font-size: 12px; /* ปรับขนาดตัวอักษร */
+    padding: 8px; /* ปรับระยะห่าง */
+}
+
+/* ปรับขนาดตัวอักษรของปุ่ม */
+.import-button, .delete-button {
+    font-size: 10px;
+    padding: 2px 4px;
+}
+
+
+/* ปรับขนาดตัวอักษรของหัวข้อหน้าจอ */
+.page-title.mb-0.p-0 {
+    font-size: 24px;
+}
+    
+.btn-danger {
+    color: white;
+}
+
+.border-top-0 {
+    font-weight: bold;
+    color: #000000;
+}
+.page-wrapper {
+    background-color: black;
+    /* สามารถเพิ่มคุณสมบัติและสไตล์เพิ่มเติมได้ตามต้องการ */
+}
+.table,
+.card {
+border-radius: 3px; /* ปรับค่าตามที่ต้องการ */
+}
+
+.user-table th,
+.user-table td {
+border-top: 1px solid #dee2e6;
+}
+
+.user-table th,
+.user-table td {
+padding: 12px; /* ปรับระยะห่างของข้อมูลในเซลล์ */
+}
+
+.user-table th {
+font-weight: bold;
+color: #000000;
+}
+
+.import-button,
+.delete-button {
+border-radius: 4px;
+padding: 2px 4px;
+}
+
+.table-responsive {
+    margin-top: 20px; /* ปรับความระหว่างด้านบนตามที่คุณต้องการ */
+    border-radius: 10px; /* ปรับค่าตามที่ต้องการ */
+}
+/* ปรับความระหว่างด้านบนของ */
+/* .col-lg-2 {
+    margin-top: 10px; 
+} */
+   /* เพิ่มสไตล์ CSS สำหรับตาราง */
+.user-table  tbody tr td {
+    font-size: 12px; /* ปรับขนาดตัวอักษร */
+    padding: 16px; /* ปรับระยะห่าง */
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+}
+
+/* ปรับขนาดตัวอักษรของปุ่ม */
+.import-button, 
+.delete-button {
+    font-size: 10px;
+    padding: 2px 4px;
+}
+
+/* ปรับขนาดตัวอักษรของชื่อบริษัท */
+.page-title {
+    font-size: 18px;
+    /* margin-left: 40px;  */
+}
+
+/* ปรับขนาดตัวอักษรของหัวข้อหน้าจอ */
+.page-title.mb-0.p-0 {
+    font-size: 24px;
+    margin-top: 20px; /* ปรับระยะด้านบนตามที่ต้องการ */
+    margin-bottom: 20px; /* ปรับระยะด้านล่างตามที่ต้องการ */
+}
+th:nth-child(3) {
+    margin-right: 10px; /* ปรับระยะห่างของเลขที่เอกสารไปทางขวา */
+}
+thead th {
+    font-weight: bold; /* ทำให้ตัวหนาขึ้น */
+    border: 1px solid #ffffff; /* เส้นขอบของเซลล์ */
+}
+
+/* ส่วนของ * นะ */
+.list-group-item {
+    display: flex;
+}
+
+.label-style {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.input-group {
+    width: 92%;
+}
+
+.input-group-append {
+    white-space: nowrap;
+    margin-top: 0px; /* ระยะห่างด้านบน */
+}
+.btn-sm{
+    border-radius:20px!important
+}
+.btn.shadow-sm  {
+    border-radius:10px!important
+}btn-success
+.btn-success{
+    border-radius:10px!important
+}
+
+.app-search {
+    display: flex;
+    align-items: center; /* จัดให้รูปและข้อความอยู่ตรงกลางตามแนวตั้ง */
+}
+
+.dark-logo {
+    margin-right: 10px; /* ระยะห่างข้างขวาของรูปภาพ */
+    margin-bottom: 30px; /* เพิ่ม margin-bottom น้อยนิดเพื่อให้รูปไปข้างบน */
+    margin-left: 10px; /* เพิ่ม margin-left เพื่อขยับไปทางฝั่งขวา */
+}
+
+.logo-and-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* จัดให้ข้อความอยู่ด้านบนของรูปแนวนอน */
+    margin-left: 10px; /* เพิ่ม margin-left เพื่อขยับไปทางฝั่งขวา */
+}
+
+.page-title {
+    margin-bottom: 0; /* ไม่มีระยะห่างด้านล่างของหัวข้อใหญ่ */
+    margin-left: 40px; /* เพิ่ม margin-left เพื่อขยับไปทางฝั่งขวา */
+    
+}
+.page-title.mb-0.p-0 {
+    margin-bottom: 5px; /* ระยะห่างด้านล่างของหัวข้อย่อ */
+    margin-left: 10px; /* เพิ่ม margin-left เพื่อขยับไปทางฝั่งขวา */
+}
+
+.mb-5 {
+    margin-bottom: 5px; /* ระยะห่างด้านล่างของหัวข้อย่อ */
+    margin-left: 10px; /* เพิ่ม margin-left เพื่อขยับไปทางฝั่งขวา */
+}
+.custom-input-group {
+    border: 2px solid #ced4da; /* เพิ่มกรอบ */
+    border-radius: 5px; /* เพิ่มขอบมนแบบกลม */
+}
+
+.custom-input-group .input-group-text {
+    background-color: #b1b6bb; /* สีพื้นหลังของ input-group-text */
+    color: rgb(0, 0, 0); /* สีของตัวหนังสือใน input-group-text */
+    padding: 10px; /* เพิ่ม padding เพื่อขยายพื้นที่สีพื้นหลัง */
+}
+
+.custom-input-group .form-control {
+    border: none; /* ไม่มีเส้นขอบ */
+    border-radius: 0; /* ไม่มีขอบมน */
+}
+.btn{
+    border-radius:9px;
+    margin-right: 20px; /* ปรับตามความต้องการ */
+    position: relative;
+    left: -10px; /* ปรับตามความต้องการ */
+}
